@@ -1,0 +1,50 @@
+.Header{
+    // position: absolute;
+    // top: -2%;
+    // left: 0;
+    // width: 100%;
+    // z-index: 300;
+    .Nav {
+     
+     
+        Nav__brand{
+            width: 50px;
+            height: 50px;
+            img{
+                width: 100%;
+            
+            }
+        }
+        .navbar-light{
+    
+            .Nav__Bar{
+                position: relative;
+                // border-bottom: 2px solid gray;
+                li{
+                    &:after{
+                        content: "";
+                        display: block;
+                        width: 0%;
+                        height: 4px;  
+                        background:linear-gradient(to right,$after-nav);
+                        transition: all .3s;
+                    }
+                    &:hover,.active {
+                       
+                        &:after{
+                        width: 100%;
+                        }
+                     }
+                }
+                .Nav-Link{
+                    font-size: 1.3em;
+                    // color:rgba(255,255,255,.5);
+                    color: #1263c6;
+                    padding: 10px 20px;
+                    
+                    
+                }
+            }
+        }
+    }
+}

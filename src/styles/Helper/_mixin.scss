@@ -1,0 +1,8 @@
+@mixin  title_ground($content,$diplay,$bg-color,$width,$height,$margin-top) {
+        content: $content;
+        display: $diplay;
+        background-color: $bg-color;
+        width: $width;
+        height: $height;
+        margin-top: $margin-top;
+}
