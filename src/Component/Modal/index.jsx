@@ -1,27 +1,37 @@
-import React from 'react';
-import {Button}from "react-bootstrap";
-function Modal(props) {
-  
+import React, { Component } from 'react'
 
-  return (
-    <>
-      <Modal {...props}>
+import Modal from "react-bootstrap/Modal";
+export default class ModalTrailer extends Component {
+  render() {
+    return (
+      <Modal
+        {...this.props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
         <Modal.Header closeButton>
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yybrQGVpYuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          {/* <Modal.Title id="contained-modal-title-vcenter">
+          Modal heading
+        </Modal.Title> */}
+          <iframe
+            className="trailer"
+            src="https://www.youtube.com/embed/xirk18P889U"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </Modal.Header>
-        {/* <Modal.Body>
-          Woohoo, you're reading this text in a modal!
-          </Modal.Body> */}
+        {/* <Modal.Body >
+      
+      </Modal.Body> */}
         {/* <Modal.Footer>
-          <Button variant="secondary" >
-            Close
-          </Button>
-          <Button variant="primary">
-            Save Changes
-          </Button>
-        </Modal.Footer> */}
+        <Button onClick={this.props.onHide}>Close</Button>
+      </Modal.Footer> */}
       </Modal>
-    </>
-  );
+    );
+  }
 }
-export default Modal;
+
+
+

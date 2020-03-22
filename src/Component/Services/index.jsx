@@ -73,7 +73,7 @@ export class Services extends Component {
                 data-aos-offset="300"
                 className="Services-left"
               >
-                <img src="img/camera-1.png" alt="camera-1" />
+                <img src="img/camera-1.jpg" alt="camera-1" />
               </div>
             </div>
             {/* innitial 3  */}

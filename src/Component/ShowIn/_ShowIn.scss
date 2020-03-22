@@ -1,5 +1,6 @@
 .ShowIn{
     .ShowIn__title{
+        margin: 4em 0;
         position: relative;
         &::after{
             @include title_ground("",block,#096574,9.8%,3px,0);
@@ -40,8 +41,13 @@
         
         .nav-tabs{
             border: none;
+            margin-bottom: 3em;
             justify-content: center;
             .nav-item{
+                .active{
+                    color: rgb(34, 31, 31) !important;
+
+                }
                 .nav-link{
                     border: none;
                     color: $color-gray-4;
@@ -58,7 +64,7 @@
         .Nav__items{
             display: grid;
             
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(3,1fr);
             // grid-gap: 10px;
             .items {
                 transition:all 0.5s;

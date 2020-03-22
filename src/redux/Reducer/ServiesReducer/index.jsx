@@ -8,13 +8,14 @@ const ServicesReducer = (state=initialServices,action)=>{
 
         case"hello":{
             console.log(action.data);
-            
+        
         }
     
-        default:{
+        default:
 
            return {...state}
-        }
+       
+        
     }
 }
 export default ServicesReducer;
