@@ -20,27 +20,29 @@ import ModalTrailer from "../Modal";
                 result:0,
                 ItemsImage:[
                     {hinhAnh:`img/suachuamaytinh-2.jpg`,ma:1},
-                    {hinhAnh:`img/suachuamaytinh-3.jpg`,ma:1},
-                    {hinhAnh:`img/suachuamaytinh-4.jpg`,ma:1},
-                    {hinhAnh:`img/suachuamaytinh-5.jpg`,ma:1},
-                    {hinhAnh:`img/suachuamaytinh-6.jpg`,ma:1},
-                    {hinhAnh:`img/suachuamaytinh-7.jpg`,ma:1},
-                    {hinhAnh:`img/photocoppy-2.jpg`,ma:2},
+                    {hinhAnh:`img/suachuamaytinh-2.jpg`,ma:1},
                     {hinhAnh:`img/photocoppy-3.jpg`,ma:2},
+                    {hinhAnh:`img/photocoppy-3.jpg`,ma:2},
+                    {hinhAnh:`img/suachuamaytinh-4.jpg`,ma:1},
+                    {hinhAnh:`img/suachuamaytinh-6.jpg`,ma:1},
+                    {hinhAnh:`img/photocoppy-2.jpg`,ma:2},
                     {hinhAnh:`img/photocoppy-4.jpg`,ma:2},
                     {hinhAnh:`img/photocoppy-5.jpg`,ma:2},
+                    {hinhAnh:`img/suachuamaytinh-7.jpg`,ma:1},
+                    {hinhAnh:`img/suachuamaytinh-5.jpg`,ma:1},
+                    {hinhAnh:`img/suachuamaytinh-3.jpg`,ma:1},
                     {hinhAnh:`img/photocoppy-6.jpg`,ma:2},
                     {hinhAnh:`img/camera-2.jpg`,ma:3},
-                    {hinhAnh:`img/camera-3.jpg`,ma:3},
                     {hinhAnh:`img/camera-4.jpg`,ma:3},
                     {hinhAnh:`img/suachuamaytinh-7.jpg`,ma:1},
                     {hinhAnh:`img/photocoppy-2.jpg`,ma:1},
                     {hinhAnh:`img/photocoppy-3.jpg`,ma:1},
                     {hinhAnh:`img/photocoppy-4.jpg`,ma:1},
+                    {hinhAnh:`img/camera-3.jpg`,ma:3},
                     {hinhAnh:`img/photocoppy-5.jpg`,ma:1},
+                    {hinhAnh:`img/camera-3.jpg`,ma:3},
                     {hinhAnh:`img/photocoppy-6.jpg`,ma:1},
                     {hinhAnh:`img/camera-2.jpg`,ma:3},
-                    {hinhAnh:`img/camera-3.jpg`,ma:3},
 
                     
 
@@ -87,6 +89,7 @@ import ModalTrailer from "../Modal";
                 return(
                     <Nav.Item key={index}>
                         <Nav.Link
+                       
                          onClick={()=>{this._handleNav(item.name)}}
                          eventKey={index} >{item.name}</Nav.Link>
                     </Nav.Item>

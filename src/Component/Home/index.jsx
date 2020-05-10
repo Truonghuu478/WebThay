@@ -14,7 +14,7 @@ class Header extends Component {
        <div className="container">
        {/* <spa className="Nav-Hotline w-100 "><span className="ml-auto">0867837427</spa></div> */}
         <Navbar >
-        <Navbar.Brand className="Nav__brand" href="#home"><img width="200px" height="200px" src={`img/logo.png`}/></Navbar.Brand>
+        <Navbar.Brand className="Nav__brand" href="#home"><img width="200px" height="200px" src={`img/logo1.png`}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto Nav__Bar">

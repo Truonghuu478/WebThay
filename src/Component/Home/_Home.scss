@@ -1,15 +1,15 @@
 .Header{
-    // position: absolute;
-    // top: -2%;
-    // left: 0;
-    // width: 100%;
-    // z-index: 300;
+    position: absolute;
+    top: -2%;
+    left: 0;
+    width: 100%;
+    z-index: 300;
     .Nav {
      
      
         Nav__brand{
-            width: 50px;
-            height: 50px;
+            max-width: 50px;
+           max-height:50px ;
             img{
                 width: 100%;
             
@@ -39,7 +39,7 @@
                 .Nav-Link{
                     font-size: 1.3em;
                     // color:rgba(255,255,255,.5);
-                    color: #1263c6;
+                    color: #fff;
                     padding: 10px 20px;
                     
                     

@@ -46,7 +46,7 @@
             .nav-item{
                 .active{
                     color: rgb(34, 31, 31) !important;
-
+                   
                 }
                 .nav-link{
                     border: none;
@@ -104,7 +104,7 @@
                     top: 0;
                     left: 0;
                     justify-content: center;
-                    color: white;
+                    color: rgb(129, 118, 118);
                     width: 100%;
                     height: 70%;
                     display: flex;
@@ -113,10 +113,10 @@
                   i{
                     transform: scale(1);
                     opacity: 0;
-                    transition: all .3s;
+                    transition: all .8s;
                     width: 70px;
                     height: 70px;
-                    border: 1px solid white;
+                    border: 1px solid rgb(129, 118, 118);
                     border-radius: 50%;
                     text-align: center;
                     line-height: 70px;

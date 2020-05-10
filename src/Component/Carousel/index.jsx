@@ -12,7 +12,7 @@ class indexCarousel extends Component {
     <Carousel.Item>
       <img
         className="d-block w-100 "
-        src={`img/bg-2.jpg`}
+        src={`img/backgound.png`}
         alt="First slide"
       />
       <Carousel.Caption>
@@ -23,7 +23,7 @@ class indexCarousel extends Component {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src={`img/bg-2.jpg`}
+        src={`img/bg-1.jpg`}
         alt="Third slide"
       />
 

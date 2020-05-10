@@ -58,8 +58,8 @@ import { connect } from 'react-redux'
       </div>
     </div>
   </div>
-  <div className="text-white py-2 text-center">
-    <p>© 2020 Bake. All Rights Reserved | Design by <a href="https://www.facebook.com/profile.php?id=100024818054580">HuuTruong</a> </p>
+  <div className=" footer-deep  text-left">
+    <p className="mb-0">© 2020 Bake. All Rights Reserved | Design by <a href="https://www.facebook.com/profile.php?id=100024818054580">HuuTruong</a> </p>
   </div>
 </div>
 

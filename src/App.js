@@ -8,15 +8,20 @@ import  Services  from './Component/Services';
 import  OurTeam from './Component/ourTeam';
 import Footer from "./Component/Footer"
 import ShowIn from './Component/ShowIn';
+import MapCompony from "./Component/Map";
 function App() {
+  // const root ={
+  //   backGround:URL('../public/img/bg-2.jpg')
+  // }
   return (
-    <div>
+    <div  >
     <Header/>
     <Carousel/>
     <About/>
-   <Services/>
+    <Services/>
     <ShowIn/>
-    <OurTeam/>
+    {/* <OurTeam/> */}
+    <MapCompony/>
     <Footer/>
     </div>
   );

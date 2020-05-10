@@ -1,6 +1,5 @@
 .footer{
     margin-top: 7em;
-    background: silver;
     .dance-agile-info{
         color: #fff;
         h4{
@@ -57,10 +56,11 @@
         }
     }
 }
-    .text-white{
+    .footer-deep{
         color: #fff;
-        font-size: 30px;
+        font-size: 1.2em;
         font-weight: 500;
+        
         a{
             color: #161113;
             &:hover{
